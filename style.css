@@ -18,6 +18,7 @@ img{
 
 body{
     background: #f3f4f6;
+    margin-top: 80px;
 }
 
 .btn{
@@ -53,7 +54,14 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 60px;
-    
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    z-index: 1000;
+    background: #d3d1d1; 
+    color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar__logo{
@@ -93,7 +101,7 @@ body{
 
 .navbar__location h5{
     font-weight: 500;
-    color: #6b7280;
+    color: #fff;
     font-size: 12px;
 }
 
