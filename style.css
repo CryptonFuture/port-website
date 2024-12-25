@@ -169,6 +169,7 @@ body{
 }
 
 .hero__actions .btn,
+.about_actions .btn,
 .skills__actions .btn{
     padding: 6px 20px;
     font-size: 12px;
@@ -194,6 +195,43 @@ body{
     border-radius: 50%;
     transition: all 0.5s ease;
 }
+
+.about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px; 
+}
+
+.about-text{
+    padding-left: 50px;
+}
+
+.about-content{
+    padding: 4rem 0 50px 5rem;
+}
+
+.about-text h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+ .about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: 80px;
+}
+
+.about-text h4{
+    font-size: 29px;
+    padding-bottom: 10px;
+}
+
+.about_actions{
+    padding-top: 20px;
+}
+
 
 .skills{
     padding: 60px;
