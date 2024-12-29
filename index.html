@@ -58,6 +58,20 @@
 
     </section>
 
+    <section id="about" class="about">
+        <div class="about-content">
+            <img src="assets/profile.png" alt="About_image" class="about-img">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h4>Full Stack Developer!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo distinctio autem nostrum placeat cumque cupiditate aperiam a. Doloribus in vitae corporis ducimus earum praesentium dignissimos voluptates hic explicabo ipsa qui rerum ipsum dolorem laudantium nisi ex laborum, consequuntur at architecto minus error vero totam quae? Doloribus, ex? Hic consequatur, soluta dolore fugiat ullam quam ipsum, fugit, aut officia modi repellat doloribus aliquam. Id, doloribus dicta.</p>
+            <div class="about_actions">
+                <button class="btn">More About Me</button>
+            </div>
+        </div>
+    </section>
+
     <section id="skills" class="skills">
 
         <div class="skills__desc">
@@ -95,6 +109,49 @@
         </div>
 
     </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section__title">My Education</h2>
+            <p class="section__desc">Here is a brief overview of my academic background.</p>
+
+            <div class="education__timeline">
+                <div class="timeline__item">
+                    <i class="fas fa-school timeline__icon"></i>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">High School</h3>
+                        <p class="timeline__subtitle">XYZ High School, 2015 - 2018</p>
+                        <p class="timeline__desc">
+                            Completed my high school with a focus on science and mathematics.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <i class="fas fa-university timeline__icon"></i>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Bachelor's Degree</h3>
+                        <p class="timeline__subtitle">ABC University, 2018 - 2022</p>
+                        <p class="timeline__desc">
+                            Earned a degree in Computer Science with a specialization in Web Development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <i class="fas fa-book-open timeline__icon"></i>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Master's Degree</h3>
+                        <p class="timeline__subtitle">DEF University, 2022 - Present</p>
+                        <p class="timeline__desc">
+                            Pursuing a Master's degree in Artificial Intelligence and Data Science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section id="projects" class="showcase">
 
@@ -289,14 +346,46 @@
                 <a href="#"><i class="ri-external-link-line"></i></a>
             </div>
         </div>
-
     </section>
 
-    <section id="contact" class="contact">
-        <h5>Got a Projects?</h5>
-        <h2>Let's Work Together!</h2>
-        <button class="btn">Send Message</button>
-        <p>Phone: <span>+92 11111111</span></p>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Feel free to reach out to me using the form below or through my contact details.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Address</h3>
+                        <p>123 Street Name, City, Country</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+123 456 789</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>example@example.com</p>
+                    </div>
+                </div>
+    
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
