@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: #1f2937;
 
 }
-img{
+
+img {
     object-fit: cover;
 }
 
-body{
+body {
     background: #e5e7eb;
     margin-top: 80px;
 }
 
-.btn{
+.btn {
     border: 2px solid #1f2937;
     background: #1f2937;
     color: #fff;
@@ -30,88 +31,88 @@ body{
     transition: all 0.5s ease;
 }
 
-.btn:hover{
+.btn:hover {
     color: #1f2937;
     background: #fff;
-     border-color: #e5e7eb;
+    border-color: #e5e7eb;
 }
 
-.btn--secondary{
-    color: #1f2937;    
+.btn--secondary {
+    color: #1f2937;
     background: #fff;
     border: #e5e7eb;
 }
 
 .btn--secondary:hover,
-.hero__socials a:hover{
+.hero__socials a:hover {
     border-color: #1f2937;
     background: #1f2937;
     color: #fff;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 60px;
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
-    right: 0; 
+    right: 0;
     z-index: 1000;
-    background: #d3d1d1; 
-    color: #fff; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);     
+    background: #d3d1d1;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.navbar__logo{
+.navbar__logo {
     display: flex;
     align-items: center;
     font-weight: 500;
     gap: 10px;
 }
 
-.navbar__logo i{
+.navbar__logo i {
     font-size: 30px;
 }
 
 .navbar__menu,
-.footer__links{
+.footer__links {
     display: flex;
     gap: 20px;
 }
 
- .navbar__link,
- .footer__links a{
+.navbar__link,
+.footer__links a {
     font-size: 14px;
     font-weight: 500;
     transition: all 0.5s ease;
- }
+}
 
- .navbar__link:hover,
- .footer__links a:hover{
+.navbar__link:hover,
+.footer__links a:hover {
     color: #000;
- }
+}
 
-.navbar__actions{
+.navbar__actions {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.navbar__location h5{
+.navbar__location h5 {
     font-weight: 500;
     color: #1f2937;
     font-size: 12px;
 }
 
-.navbar__location p{
+.navbar__location p {
     font-size: 11px;
     color: #1f2937;
     font-weight: 600;
 }
 
-.navbar__actions .btn{
+.navbar__actions .btn {
     padding: 6px 10px;
     font-size: 12px;
     font-weight: 500;
@@ -128,17 +129,17 @@ body{
 }
 
 .hero__content,
-.hero__intro{
+.hero__intro {
     width: 50%;
 }
 
 .hero__image {
     width: 340px;
     height: 340px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-.hero__content h2{
+.hero__content h2 {
     font-size: 48px;
     line-height: 60px;
     font-weight: 400;
@@ -146,38 +147,38 @@ body{
     width: 85%;
 }
 
-.hero__intro{
+.hero__intro {
     padding-right: 40px;
 }
 
-.hero__intro h3{
+.hero__intro h3 {
     font-weight: 500;
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 10px;
 }
 
-.hero__intro p{
+.hero__intro p {
     color: #6b7280;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
 .hero__actions,
-.skills__actions{
+.skills__actions {
     display: flex;
     gap: 10px;
 }
 
 .hero__actions .btn,
 .about_actions .btn,
-.skills__actions .btn{
+.skills__actions .btn {
     padding: 6px 20px;
     font-size: 12px;
     font-weight: 500;
 }
 
-.hero__socials{
+.hero__socials {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -186,7 +187,7 @@ body{
     top: 20%;
 }
 
-.hero__socials a{
+.hero__socials a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,26 +198,26 @@ body{
     transition: all 0.5s ease;
 }
 
-.about-img{
+.about-img {
     width: 300px;
     height: 300px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-.about-text{
+.about-text {
     padding-left: 50px;
 }
 
-.about-content{
+.about-content {
     padding: 4rem 0 50px 5rem;
 }
 
-.about-text h2{
+.about-text h2 {
     font-size: 40px;
     padding-bottom: 10px;
 }
 
- .about{
+.about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -224,17 +225,17 @@ body{
     padding-right: 80px;
 }
 
-.about-text h4{
+.about-text h4 {
     font-size: 29px;
     padding-bottom: 10px;
 }
 
-.about_actions{
+.about_actions {
     padding-top: 20px;
 }
 
 
-.skills{
+.skills {
     padding: 60px;
     display: flex;
     align-items: center;
@@ -242,32 +243,32 @@ body{
 }
 
 .skills__desc,
-.skills__stats{
+.skills__stats {
     width: 50%;
 }
 
-.skills__desc{
+.skills__desc {
     padding-right: 80px;
 }
 
-.skills__desc h3{
+.skills__desc h3 {
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.skills__desc p{
+.skills__desc p {
     color: #6b7280;
     font-size: 14px;
     margin-bottom: 30px;
 }
 
-.skills__stats{
+.skills__stats {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.skills__stats i{
+.skills__stats i {
     font-size: 60px;
     display: flex;
     align-items: center;
@@ -275,7 +276,7 @@ body{
     padding: 20px 0;
 }
 
-.skills__info{
+.skills__info {
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -284,14 +285,14 @@ body{
     padding: 20px;
 }
 
-.skills__info h5{
+.skills__info h5 {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.skills__info p{
+.skills__info p {
     width: 50%;
     text-align: center;
     font-size: 14px;
@@ -360,24 +361,24 @@ body{
 }
 
 
-.showcase{
+.showcase {
     padding: 80px 60px 100px;
     background: #e5e7eb;
 }
 
-.showcase__header{
+.showcase__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 36px;
 }
 
-.showcase__header h3{
+.showcase__header h3 {
     font-size: 28px;
     font-weight: 400;
 }
 
-.showcase__header .btn{
+.showcase__header .btn {
     font-size: 13px;
     padding: 5px 16px;
     color: #fff;
@@ -385,32 +386,32 @@ body{
     border-color: #1f2937;
 }
 
-.showcase__categories .category:first-child{
+.showcase__categories .category:first-child {
     margin-bottom: 100px;
 }
 
-.category__header{
+.category__header {
     display: flex;
     align-items: center;
 }
 
 .category__tittle,
-.category__desc{
+.category__desc {
     width: 50%;
     display: flex;
     align-items: center;
 }
 
-.category__tittle{
+.category__tittle {
     gap: 12px;
 }
 
-.category__tittle h4{
+.category__tittle h4 {
     font-size: 22px;
     font-weight: 400;
 }
 
-.category__tittle i{
+.category__tittle i {
     background: #fff;
     display: flex;
     align-items: center;
@@ -420,28 +421,28 @@ body{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.category__desc{
+.category__desc {
     gap: 40px;
     justify-content: space-between;
 }
 
-.category__desc p{
-    font-size: 13px;   
+.category__desc p {
+    font-size: 13px;
     color: #6b7280;
     font-weight: 500;
 }
 
-.category__desc a{
+.category__desc a {
     font-size: 22px;
 }
 
-.category__projects{
+.category__projects {
     margin-top: 40px;
     display: flex;
     gap: 20px;
 }
 
-.project-card{
+.project-card {
     position: relative;
     width: 25%;
     height: 420px;
@@ -451,7 +452,7 @@ body{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.project-card__image{
+.project-card__image {
     width: 100%;
     height: 200px;
     border-radius: 10px;
@@ -460,7 +461,7 @@ body{
     margin-bottom: 20px;
 }
 
-.project-card__info{
+.project-card__info {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -468,24 +469,24 @@ body{
     margin-bottom: 8px;
 }
 
-.project-card__info h5{
+.project-card__info h5 {
     font-size: 17px;
     font-weight: 500;
 }
 
-.project-card__info p{
+.project-card__info p {
     font-size: 12px;
     color: #6b7280;
     font-weight: 500;
 }
 
-.project-card__desc{
+.project-card__desc {
     font-size: 13px;
     color: #7a7a7a;
     margin-bottom: 30px;
 }
 
-.project-card .btn{
+.project-card .btn {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -496,11 +497,11 @@ body{
     background: #1f2937;
 }
 
-.project-card .btn:hover{ 
+.project-card .btn:hover {
     background: #000;
 }
 
-.career{
+.career {
     padding: 60px 60px 80px;
     display: flex;
     align-items: center;
@@ -508,30 +509,30 @@ body{
 }
 
 .career__jobs,
-.career__awards{
+.career__awards {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.career h3{
+.career h3 {
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 20px;
 }
- 
+
 .job,
-.award{
+.award {
     display: flex;
     align-items: center;
     gap: 20px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #e5e7eb; 
+    border-bottom: 2px solid #e5e7eb;
 }
 
 .job i,
-.award div i{
+.award div i {
     font-size: 20px;
     padding: 10px;
     background: #fff;
@@ -540,35 +541,35 @@ body{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.award{
+.award {
     justify-content: space-between;
 }
 
-.award > div {
+.award>div {
     display: flex;
     align-items: center;
     gap: 20px;
 }
- 
+
 .job__info h5,
-.award__info h5{
+.award__info h5 {
     font-size: 15px;
     font-weight: 500;
 }
 
 .job__info h5 span,
-.award__info h5 span{
+.award__info h5 span {
     font-weight: 600;
 }
 
 .job__info p,
-.award__info p{
+.award__info p {
     font-size: 13px;
     color: #6b7280;
     font-weight: 500;
 }
 
-.award a i{
+.award a i {
     font-size: 24px;
 }
 
@@ -627,7 +628,7 @@ body{
 
 .contact-form input,
 .contact-form textarea {
-    padding: 12px; 
+    padding: 12px;
     border-radius: 5px;
     box-sizing: border-box;
     width: 100%;
@@ -675,23 +676,23 @@ body{
     margin-bottom: 30px;
 }
 
-.footer{
+.footer {
     padding: 20px 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #d3d1d1; 
+    background: #d3d1d1;
 }
 
-.footer__brand{
+.footer__brand {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-.footer__brand p{
+.footer__brand p {
     font-size: 13px;
     color: #1f2937;
     font-weight: 500;
@@ -728,87 +729,87 @@ html {
 
 
 @media screen and (max-width: 1230px) {
-    
-    .hero__image{
+
+    .hero__image {
         width: 100%;
     }
 
-    .hero__content h2{
+    .hero__content h2 {
         font-size: 38px;
         text-align: center;
     }
 
-    .hero__intro h3{
+    .hero__intro h3 {
         font-size: 30px;
     }
 
-    .hero__intro p{
+    .hero__intro p {
         font-size: 15px;
     }
 
-    .skills__desc{
+    .skills__desc {
         padding-right: 20px;
     }
 
-    .skills__desc{
+    .skills__desc {
         font-size: 26px;
     }
 
-    .skills__stats i{
+    .skills__stats i {
         font-size: 50px;
     }
 
-    .skills__info h5{
+    .skills__info h5 {
         font-size: 20px;
     }
 
-    .skills__info p{
+    .skills__info p {
         font-size: 20px;
         width: 100%;
     }
 
-    .category__tittle{
+    .category__tittle {
         width: 40%;
     }
 
-    .category__desc{
+    .category__desc {
         width: 60%;
     }
 
-    .category__projects{
+    .category__projects {
         flex-wrap: wrap;
     }
 
-    .project-card{
+    .project-card {
         width: 48%;
     }
 
 }
-    
+
 @media screen and (max-width: 992px) {
-    
-    .navbar{
+
+    .navbar {
         padding: 20px 30px;
     }
 
-    .hero{
+    .hero {
         padding: 100px 30px 40px;
     }
 
-    .hero__intro h3{
+    .hero__intro h3 {
         font-size: 22px;
         line-height: 34px;
     }
 
-    .hero__intro p{
+    .hero__intro p {
         font-size: 13px;
     }
 
-    .hero__socials{
+    .hero__socials {
         top: 6%;
     }
 
-    .skills{
+    .skills {
         flex-direction: column;
         padding: 60px 30px 80px;
     }
@@ -818,33 +819,33 @@ html {
     .category__tittle,
     .category__desc,
     .career__jobs,
-    .career__awards{
+    .career__awards {
         width: 100%;
     }
 
-    .skills__desc{
+    .skills__desc {
         padding-right: 0;
     }
 
-    .showcase{
+    .showcase {
         padding: 80px 30px 100px;
     }
 
-    .category__header{
+    .category__header {
         flex-direction: column;
     }
 
-    .category__tittle{
+    .category__tittle {
         margin-bottom: 20px;
     }
 
-    .career{
+    .career {
         padding: 60px 30px 80px;
         flex-direction: column;
         gap: 60px;
     }
 
-    .footer{
+    .footer {
         padding: 20px 30px;
     }
 
@@ -853,11 +854,11 @@ html {
 
 @media screen and (max-width: 768px) {
 
-    .navbar__actions{
+    .navbar__actions {
         display: none;
     }
 
-    .hero{
+    .hero {
         flex-direction: column;
         height: auto;
         padding: 40px 30px 0px;
@@ -865,46 +866,46 @@ html {
     }
 
     .hero__content,
-    .hero__intro{
+    .hero__intro {
         width: 100%;
     }
 
-    .hero__content h2{
+    .hero__content h2 {
         width: 100%;
         font-size: 30px;
     }
 
-    .hero__socials{
+    .hero__socials {
         position: relative;
         flex-direction: row;
         right: auto;
         margin-top: 10px;
     }
 
-    .showcase__header h3{
+    .showcase__header h3 {
         font-size: 24px;
     }
 
-    .category__tittle h4{
+    .category__tittle h4 {
         font-size: 20px;
     }
 
-    .project-card{
+    .project-card {
         width: 100%;
         height: 500px;
     }
 
-    .project-card__image{
+    .project-card__image {
         height: 300px;
     }
 
-    .career h3{
+    .career h3 {
         font-size: 26px;
     }
 
-    .footer{
+    .footer {
         flex-direction: column-reverse;
         gap: 16px;
     }
-    
+
 }

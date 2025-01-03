@@ -6,58 +6,59 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
 }
 
-.login-container {
+.form-container {
     background: #d3d1d1;
-    padding: 20px 30px;
     border-radius: 10px;
+    padding: 15px 30px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
-    width: 350px;
+    width: 400px;
 }
 
-.login-form h2 {
+h2 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.login-form label {
+form label {
+    font-size: 0.9em;
+    margin-bottom: 2px;
+    margin-top: 20px;
     font-weight: bold;
-    font-size: 14px;
-    margin-top: 10px;
     display: block;
 }
 
-.login-form input[type="text"],
-.login-form input[type="password"] {
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
     background: #f9f9f9;
+    font-size: 14px;
 }
 
-.login-form input::placeholder {
+form input::placeholder {
     color: #6b7280;
 }
 
-.checkbox-container {
+.checkbox-group {
     display: flex;
     align-items: center;
-    margin: 10px 0;
 }
 
-.checkbox-container label {
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.checkbox-container input[type="checkbox"] {
-    margin-right: 10px;
-    cursor: pointer;
+.checkbox-group input[type="checkbox"] {
     accent-color: #1f2937;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.checkbox-group label {
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -71,6 +72,10 @@ body {
     transition: all 0.2s ease;
 }
 
+.action-group {
+    text-align: center;
+}
+
 .btn:hover {
     color: #1f2937;
     background: #fff;
@@ -78,22 +83,18 @@ body {
     box-shadow: 0 0 5px #1f2937;
 }
 
-.action-group {
-    text-align: center;
-}
-
-.signup-link {
+.login-link {
     margin-top: 10px;
     font-size: 14px;
     text-align: center;
 }
 
-.signup-link a {
+.login-link a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.signup-link a:hover {
+.login-link a:hover {
     text-decoration: underline;
 }
