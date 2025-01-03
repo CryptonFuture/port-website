@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #e5e7eb;
+    /* background: #f0f0f5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: #d3d1d1;
+    /* background: #ffffff; */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    width: 350px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    /* color: #333; */
+  }
+  
+  .login-form label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  .login-form input::placeholder {
+      color: #6b7280;
+      /* color: #aaa; */
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .checkbox-container label{
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #1f2937;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    /* width: 100%; */
+    /* padding: 10px; */
+      border: 2px solid #1f2937;
+      /* border: none; */
+    border-radius: 10px;
+      background-color: #1f2937; 
+      /* background: #333; */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    /* margin-top: 15px; */
+      transition: all 0.2s ease;
+      /* transition: background 0.3s; */
+  }
+  
+  .btn:hover {
+    /* background: #555;  */
+    color: #1f2937;
+    background: #fff;
+    border-color: #e5e7eb;
+    box-shadow: 0 0 5px #1f2937;
+  }
+  
+  .action-group {
+    text-align: center;
+  }
+  
+  .signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
